@@ -57,13 +57,14 @@ Medians of 3 runs, each in a fresh process. Full table for every fixture: [resul
 
 ### Results (2026-11-11, Apple M5 Pro, `map` shape)
 
-One run per variant. Opens are full connect + sync step 2; warm = 5 opens, cold = 3 opens after a graceful restart. Edits: 200 one-key updates at 20/s, one sender and one peer. Kill: `kill -9` of the owner mid-stream, then reconnect and count delivered edits that are gone. Raw: `results/engines/*.json`.
+One run per variant. Opens are full connect + sync step 2 applied. Warm opens were rerun with each open in a fresh Node process (`out/probe-fair.mjs`), because in the bench run the harness process still held the seed and earlier docs, which inflated its warm opens up to 5× (`rfc` 7.3 MB: 944 ms in the bench, 275 ms fresh). Cold = first open after a graceful restart, from the bench run, and may carry the same inflation. Edits: 200 one-key updates at 20/s, one sender and one peer. Kill: `kill -9` of the owner mid-stream, then reconnect and count delivered edits that are gone. Raw: `results/engines/*.json`.
 
 | | `yredis` | `rfc` | `actor` | `actor-pg` |
 | --- | ---: | ---: | ---: | ---: |
-| p99 room (2.7 MB) warm / cold open, ms | 283 / 1,248 | **95 / 170** | 232 / 500 | 226 / 642 |
-| p999 room (7.3 MB) warm / cold open, ms | 431 / 655 | 944 / 1,414 | **396 / 642** | 441 / 1,119 |
-| max room (55 MB) | sync timeout | opens: seed 289 s, warm 17 s | cannot (16 MiB gateway cap) | cannot (16 MiB gateway cap) |
+| p99 room (2.7 MB) warm open, ms (fresh process, median of 5) | 244 | **101** | 168 | 153 |
+| p999 room (7.3 MB) warm open, ms (fresh process, median of 5) | 578 | **275** | 408 | 377 |
+| p99 room cold open, ms (bench run) | 1,248 | **170** | 500 | 642 |
+| max room (55 MB) | sync timeout | opens: warm 2.4 s, cold 2.8 s (rechecked; bench said 17 s) | cannot (16 MiB gateway cap) | cannot (16 MiB gateway cap) |
 | edit ack p50 / p99, ms (p999 room) | no ack | 19 / 82 | 6 / 752 | 20 / 3,959 |
 | edit broadcast p50 / p99, ms (p999 room) | 2.5 / 134 | 20 / 96 | 2.4 / 768 | 2.9 / 3,779 |
 | kill -9: delivered edits lost | 0 of 717 (10 runs) | 0 of 756 (10 runs) | 0 of 242 (5 runs, 1 never reconnected) | 0 of 280 (5 runs) |
@@ -74,7 +75,9 @@ One run per variant. Opens are full connect + sync step 2; warm = 5 opens, cold 
 - **No engine lost a delivered edit to `kill -9`.** For `rfc`, `actor` and `actor-pg`, delivered means acked. `yredis` has no ack, so delivered means a peer applied it; the client itself never learns whether an edit is durable.
 - **Rivet's owner loss is the operational gap.** After a runner is killed, clients wait ~100 s before the doc opens again: the engine holds the dead runner's actors until `pegboard.node_lost_threshold` (40 s) expires, and clients back off while it does. `rfc` and `yredis` reopen in under 100 ms. The threshold can be tuned down, but it is the same fencing-vs-availability trade the RFC already makes with its advisory lock, just with less control.
 - **Only `rfc` opened the 55 MB room, and only with its limits raised.** Its defaults close the connection: `COLLAB_MAX_MESSAGE_BYTES` 32 MiB rejects the seed (4413), and `COLLAB_OUT_BYTES` 16 MiB rejects the sync step 2 that follows (4408 slow). The bench raises both to 128/256 MiB. Rivet cannot carry it at all; `yredis` timed out syncing it. A real 40.6 MB room exists in prd, so the RFC needs either chunked sync or raised limits, and it is a reason to fix the doc shape (stage 1) before launch.
-- **`rfc` open time grows faster than the doc.** 95 ms → 944 ms → 17 s for 2.7 → 7.3 → 55 MB, against ~400 ms at 7.3 MB for the others. It is the fastest at p99 and the slowest above it. Worth profiling the sync step 2 path in `services/collab` (snapshot load, log replay, encode).
+- **Opens: `rfc` is fastest wherever all four can open the room.** In fresh processes it opens the 2.7 MB room in 101 ms and the 7.3 MB room in 275 ms, about 1.5× faster than the actors and 2× faster than `yredis`. The actors pay for the extra hop through Rivet's gateway. The bench run showed the actors ahead at 7.3 MB; that was the harness, not the engines.
+- **The bench's 17 s warm open for the 55 MB room was mostly the harness.** Rechecked in a fresh process against the same room: a warm open is 2.4 s, made up of ~1.0 s for the server to encode and send the 54.6 MB step 2 and ~1.4 s for yjs to apply it. A cold open after a graceful restart is 2.8 s: the server's load (snapshot fetch from S3, sha256, zstd, yrs apply, claim) adds ~0.3–1 s, which matches the parts timed alone (fetch < 1 s, zstd 0.13 s, sha256 0.07 s, yrs apply 0.44 s). One earlier cold open took 10.5 s, the first of the day after the laptop had been idle for hours; it did not reproduce. In the bench run, the same harness process had just seeded 55 MB and held the earlier docs, so the extra time is likely GC pressure in the harness or the server's post-seed work (snapshot, projector); not yet separated.
+- **Even 2.4 s is too slow, and most of it is in the browser.** The yjs apply is ~60% of the warm open. Stage 1's `hybrid` shape loads this room in 545 ms in yjs and makes the step 2 35 MB instead of 55 MB, which is the bigger lever than anything on the server.
 - **Durable-before-broadcast costs ~17 ms per edit.** `rfc` broadcasts after the group commit, so peers see edits at ~20 ms p50 instead of ~2.5 ms. At p99 it is 96–110 ms on this laptop, over the RFC's 50 ms target. The others broadcast before the write is durable, so a peer can see an edit that is later lost.
 - **The concurrent-docs run is not usable yet.** With 314 docs for 30 s the harness should send ~18,800 updates; it sent 1,887 (`actor`) to 16,989 (`actor-pg`), so the single Node harness process is the bottleneck and the latencies are not comparable. One signal to chase: `rfc` acks reached 732 ms p50 / 3.8 s p99 under that load. Rerun on Linux with the clients split across processes before reading anything into it.
 
