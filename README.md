@@ -57,7 +57,7 @@ Medians of 3 runs, each in a fresh process. Full table for every fixture: [resul
 
 ### Results (2026-11-11, Apple M5 Pro, `map` shape)
 
-One run per variant. Opens are full connect + sync step 2 applied. Warm opens were rerun with each open in a fresh Node process (`out/probe-fair.mjs`), because in the bench run the harness process still held the seed and earlier docs, which inflated its warm opens up to 5× (`rfc` 7.3 MB: 944 ms in the bench, 275 ms fresh). Cold = first open after a graceful restart, from the bench run, and may carry the same inflation. Edits: 200 one-key updates at 20/s, one sender and one peer. Kill: `kill -9` of the owner mid-stream, then reconnect and count delivered edits that are gone. Raw: `results/engines/*.json`.
+One run per variant. Opens are full connect + sync step 2 applied. Warm opens were rerun with each open in a fresh Node process (`harness/run-opens.mjs`), because in the bench run the harness process still held the seed and earlier docs, which inflated its warm opens up to 5× (`rfc` 7.3 MB: 944 ms in the bench, 275 ms fresh). Cold = first open after a graceful restart, from the bench run, and may carry the same inflation. Edits: 200 one-key updates at 20/s, one sender and one peer. Kill: `kill -9` of the owner mid-stream, then reconnect and count delivered edits that are gone. Raw: `results/engines/*.json`.
 
 | | `yredis` | `rfc` | `actor` | `actor-pg` |
 | --- | ---: | ---: | ---: | ---: |

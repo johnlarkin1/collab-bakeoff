@@ -45,7 +45,7 @@ async function retry(what, fn, ms = 60_000) {
 export function makeAdapter(mode, name) {
   const m = MODES[mode];
   const pidFile = join(RUN, `${mode}.pid`);
-  let nonce = Date.now().toString(36);
+  let nonce = process.env.BAKEOFF_ACTOR_NONCE ?? Date.now().toString(36);
   let prepared = [];
   const key = (projectId) => `${projectId}~${nonce}`;
 
@@ -145,7 +145,7 @@ export function makeAdapter(mode, name) {
 
     // Fresh actor keys per prepare, so every project starts empty; pg also drops old rows.
     async prepare(projectIds) {
-      nonce = Date.now().toString(36);
+      nonce = process.env.BAKEOFF_ACTOR_NONCE ?? Date.now().toString(36);
       prepared = [...projectIds];
       if (mode === 'pg') psql('TRUNCATE doc_updates, doc_snapshots');
     },
