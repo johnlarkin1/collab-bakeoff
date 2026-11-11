@@ -60,6 +60,35 @@ bench/yrs/target/release/shape-yrs --file F --mode time|mem [--reps N]
 | `actor` | RivetKit Rust actor + `yrs` | Rivet control plane | actor SQLite, tiered to S3 |
 | `actor-pg` | same Rivet actor | Rivet control plane | Postgres log (the RFC's `crates/log`) |
 
-Every variant serves standard y-websocket sync + awareness at `ws://localhost:{port}/{project_id}` and loads a fixture into a project through `POST /admin/seed/{project_id}` with the `.ybin` body. Variants with an `ack {seq}` message report it; the others are measured on broadcast only. One `docker compose` stack provides Postgres 17, MinIO, Redis and the Rivet engine, with optional latency shaping.
+### Wire protocol
+
+Every variant speaks the y-websocket protocol on a binary WebSocket, one socket per (client, project):
+
+- Message type varint `0` = sync: sub-type `0` step 1 (state vector), `1` step 2 (update), `2` update. Type `1` = awareness.
+- On connect the server sends sync step 1 and step 2. The client answers step 1 with its own step 2. A client counts as **synced** once it has applied the server's step 2.
+- **Ack** (variants that make edits durable before acknowledging): type `10`, then a varint `seq`, sent to the sender after each accepted update is durable. Same encoding as `services/collab` (`MSG_ACK = 10`, `reject = 11`). `yredis` has no ack and is measured on broadcast only.
+
+### Adapter
+
+Each variant has `variants/{name}/adapter.mjs`, which the harness imports:
+
+```js
+export default {
+  name: 'rfc',
+  async up() {},                      // start the variant's stack (idempotent)
+  async prepare(projectIds) {},       // make projects exist and be empty
+  async connect(projectId) {},        // -> { url, protocols, headers }
+  async restart() {},                 // graceful restart: docs leave memory (cold open next)
+  async kill() {},                    // kill -9 the owner process, then start it again
+  async storageBytes() {},            // bytes used by durable state (log + snapshots)
+  ack: true,                          // sends type-10 acks
+}
+```
+
+The harness seeds a fixture by connecting as an ordinary client and sending the fixture's `.ybin` as one sync update. No variant needs a seed route.
+
+### Stack
+
+`docker compose` in this repo provides Postgres 17, MinIO, Redis and the Rivet engine for the new variants. `rfc` runs from its own compose stack in `rebar-larkin/services/collab` (the code under test) and `yredis` from a local `y-redis-server` checkout. Latency shaping is optional.
 
 Engine metrics: cold and warm open, append-to-ack p50/p99, broadcast p99, acked updates lost after `kill -9` of the owner (must be 0), owner-loss recovery, deploy disruption, writes accepted by a stale owner (must be 0), memory per doc, storage bytes, moving parts.

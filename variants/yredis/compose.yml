@@ -1,0 +1,13 @@
+# Upstream y-redis dependencies for the bakeoff. Ports chosen to avoid other local stacks.
+name: bakeoff-yredis
+services:
+  redis:
+    image: redis:7.4-alpine
+    ports: ["56379:6379"]
+  minio:
+    image: cgr.dev/chainguard/minio:latest
+    command: server /data
+    environment:
+      MINIO_ROOT_USER: bakeoff
+      MINIO_ROOT_PASSWORD: bakeoffsecret
+    ports: ["59100:9000"]

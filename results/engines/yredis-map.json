@@ -1,0 +1,80 @@
+{
+  "variant": "yredis",
+  "shape": "map",
+  "machine": "Apple M5 Pro, 15 cores",
+  "ran_at": "2026-11-11T04:41:31.095Z",
+  "fixtures": [
+    {
+      "fixture": "p50",
+      "icons": 66,
+      "mb": 0.096628,
+      "seed_ms": 2012.3,
+      "warm_open_p50": 12.2,
+      "warm_open_max": 19.9,
+      "cold_open_p50": 38.7,
+      "cold_open_max": 113.8,
+      "ack_p50": null,
+      "ack_p99": null,
+      "bcast_p50": 2.8,
+      "bcast_p99": 6.9,
+      "bcast_n": 200
+    },
+    {
+      "fixture": "p99",
+      "icons": 1793,
+      "mb": 2.698034,
+      "seed_ms": 2173.4,
+      "warm_open_p50": 282.8,
+      "warm_open_max": 426,
+      "cold_open_p50": 1247.8,
+      "cold_open_max": 1263,
+      "ack_p50": null,
+      "ack_p99": null,
+      "bcast_p50": 3.2,
+      "bcast_p99": 39.9,
+      "bcast_n": 200
+    },
+    {
+      "fixture": "p999",
+      "icons": 4848,
+      "mb": 7.325613,
+      "seed_ms": 2849.7,
+      "warm_open_p50": 430.6,
+      "warm_open_max": 758.9,
+      "cold_open_p50": 655,
+      "cold_open_max": 785.3,
+      "ack_p50": null,
+      "ack_p99": null,
+      "bcast_p50": 2.5,
+      "bcast_p99": 133.6,
+      "bcast_n": 200
+    },
+    {
+      "fixture": "max",
+      "error": "sync timeout ws://localhost:3102/00000000-0000-4000-8000-0000162da630?yauth=eyJhbGciOiJFUzM4NCIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBdXRoLVNlcnZlci1FeGFtcGxlIiwiZXhwIjoxNzk0Mzc1ODc0MDI1LCJ5dXNlcmlkIjoidXNlcjEifQ.ALtbCWj9f3W4WzTaOXLodinhX8kxGKH6cjXD6STnQuLZHrUbg9PuzGiYpp6TrCm83cDd7Gu4Buablyywh3iZ584Ol_tD2Ei_"
+    }
+  ],
+  "connect_retries": 1,
+  "durability": {
+    "runs": 10,
+    "delivered": 717,
+    "delivered_means": "applied by a peer",
+    "lost": 0,
+    "recover_p50_ms": 664.5,
+    "reopen_p50_ms": 75.7,
+    "failed_runs": 0,
+    "errors": []
+  },
+  "load": {
+    "docs": 314,
+    "connections": 346,
+    "connect_all_ms": 2496.2,
+    "updates": 2732,
+    "ack_p50": null,
+    "ack_p99": null,
+    "bcast_p50": 1.1,
+    "bcast_p99": 13,
+    "bcast_n": 281
+  },
+  "storage_bytes": null
+}

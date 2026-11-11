@@ -1,0 +1,76 @@
+{
+  "variant": "actor-pg",
+  "shape": "map",
+  "machine": "Apple M5 Pro, 15 cores",
+  "ran_at": "2026-11-11T05:10:27.697Z",
+  "fixtures": [
+    {
+      "fixture": "p50",
+      "icons": 66,
+      "mb": 0.096628,
+      "seed_ms": 36.9,
+      "warm_open_p50": 6,
+      "warm_open_max": 8.4,
+      "cold_open_p50": 30.3,
+      "cold_open_max": 32.8,
+      "ack_p50": 18,
+      "ack_p99": 25.1,
+      "bcast_p50": 2.3,
+      "bcast_p99": 6.6,
+      "bcast_n": 200
+    },
+    {
+      "fixture": "p99",
+      "icons": 1793,
+      "mb": 2.698034,
+      "seed_ms": 341.8,
+      "warm_open_p50": 225.8,
+      "warm_open_max": 263.1,
+      "cold_open_p50": 641.7,
+      "cold_open_max": 789.9,
+      "ack_p50": 17.5,
+      "ack_p99": 295.1,
+      "bcast_p50": 2.2,
+      "bcast_p99": 188.7,
+      "bcast_n": 200
+    },
+    {
+      "fixture": "p999",
+      "icons": 4848,
+      "mb": 7.325613,
+      "seed_ms": 643.8,
+      "warm_open_p50": 441.3,
+      "warm_open_max": 670.9,
+      "cold_open_p50": 1119.2,
+      "cold_open_max": 3242.7,
+      "ack_p50": 19.5,
+      "ack_p99": 3958.5,
+      "bcast_p50": 2.9,
+      "bcast_p99": 3779.4,
+      "bcast_n": 200
+    }
+  ],
+  "connect_retries": 7,
+  "durability": {
+    "runs": 5,
+    "delivered": 280,
+    "delivered_means": "acked",
+    "lost": 0,
+    "recover_p50_ms": 2302.1,
+    "reopen_p50_ms": 105798.3,
+    "failed_runs": 0,
+    "errors": []
+  },
+  "load": {
+    "docs": 314,
+    "connections": 346,
+    "connect_all_ms": 12822,
+    "updates": 16989,
+    "ack_p50": 18.1,
+    "ack_p99": 1242.6,
+    "bcast_p50": 2.1,
+    "bcast_p99": 891.2,
+    "bcast_n": 1727
+  },
+  "storage_bytes": 460373
+}

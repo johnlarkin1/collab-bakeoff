@@ -1,0 +1,30 @@
+# Stage 2 stack for the actor / actor-pg variants. Host ports avoid the rfc stack (55432/59000/8080/8081/9090).
+name: collab-bakeoff
+
+services:
+  rivet:
+    image: rivetdev/engine:3.0.7
+    ports:
+      - "6420:6420"
+    environment:
+      RIVET__AUTH__ADMIN_TOKEN: bakeoff-dev-token
+    volumes:
+      - ./variants/actor/rivet/config.json:/etc/rivet/config.json:ro
+      - rivet-log:/var/lib/rivet/log
+      - rivet-objects:/var/lib/rivet/objects
+
+  postgres:
+    image: postgres:17
+    ports:
+      - "55442:5432"
+    environment:
+      POSTGRES_USER: bakeoff
+      POSTGRES_PASSWORD: bakeoff
+      POSTGRES_DB: bakeoff
+    volumes:
+      - pg-data:/var/lib/postgresql/data
+
+volumes:
+  rivet-log:
+  rivet-objects:
+  pg-data:

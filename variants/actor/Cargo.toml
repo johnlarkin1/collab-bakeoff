@@ -1,0 +1,23 @@
+[package]
+name = "collab-actor"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[[bin]]
+name = "collab-actor"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1"
+async-trait = "0.1"
+rivetkit = "=3.0.7"
+serde_json = "1"
+tokio = { version = "1", features = ["full"] }
+tokio-postgres = "0.7"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+yrs = { version = "0.28", features = ["sync"] }
+
+[profile.release]
+debug = 1

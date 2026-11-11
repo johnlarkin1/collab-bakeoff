@@ -1,0 +1,9 @@
+{
+  "name": "collab-bakeoff-yredis",
+  "private": true,
+  "type": "module",
+  "description": "Upstream yjs/y-redis (AGPL), installed from npm and run locally only. Never vendored into this repo.",
+  "dependencies": {
+    "@y/redis": "0.1.6"
+  }
+}

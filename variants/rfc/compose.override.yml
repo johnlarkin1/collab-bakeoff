@@ -1,0 +1,9 @@
+# Bench override for rebar-larkin/services/collab/docker-compose.yaml.
+# The server's default message cap is 32 MiB; the RFC says 100 MB, and the largest prd room is 40.6 MB.
+services:
+  collab:
+    environment:
+      COLLAB_MAX_MESSAGE_BYTES: "134217728"
+      # Default per-connection outbound queue is 16 MiB: a larger doc's initial sync closes 4408 reason=slow.
+      COLLAB_OUT_BYTES: "268435456"
+      COLLAB_PENDING_BYTES: "268435456"

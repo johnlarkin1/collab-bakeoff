@@ -124,7 +124,7 @@ function splitMeta(icon) {
 
 function encode(shape, icons) {
   const doc = new Y.Doc()
-  doc.clientID = 1
+  doc.clientID = 1234567 // outside the server-reserved range 1..=65535 in services/collab
   const root = doc.getMap(ROOT)
   const sidecar = {}
   doc.transact(() => {

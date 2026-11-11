@@ -1,133 +1,133 @@
 {
   "machine": "Apple M5 Pro, 15 cores, 24 GB, darwin 25.4.0, node v22.22.1",
-  "ran_at": "2026-11-11T02:12:17.031Z",
+  "ran_at": "2026-11-11T02:41:29.170Z",
   "manifest": {
-    "generated_at": "2026-11-11T02:11:51.246Z",
+    "generated_at": "2026-11-11T02:33:16.194Z",
     "root": "markup.icons",
     "pad": 0,
-    "bytes_per_icon_map": 1424,
+    "bytes_per_icon_map": 1506,
     "fixtures": [
       {
         "name": "p50",
         "target_mb": 0.1,
-        "icons": 70,
+        "icons": 66,
         "pages": 1,
         "shapes": {
           "map": {
-            "bytes": 96781,
-            "gzip_bytes": 21891
+            "bytes": 96628,
+            "gzip_bytes": 20859
           },
           "map-meta": {
-            "bytes": 76724,
-            "gzip_bytes": 17471,
-            "sidecar_bytes": 23194
+            "bytes": 77721,
+            "gzip_bytes": 16665,
+            "sidecar_bytes": 21871
           },
           "value": {
-            "bytes": 79864,
-            "gzip_bytes": 13810
+            "bytes": 75275,
+            "gzip_bytes": 13101
           },
           "value-meta": {
-            "bytes": 59807,
-            "gzip_bytes": 9453,
-            "sidecar_bytes": 23194
+            "bytes": 56368,
+            "gzip_bytes": 8979,
+            "sidecar_bytes": 21871
           },
           "hybrid": {
-            "bytes": 64238,
-            "gzip_bytes": 11326,
-            "sidecar_bytes": 23194
+            "bytes": 61859,
+            "gzip_bytes": 10753,
+            "sidecar_bytes": 21871
           }
         }
       },
       {
         "name": "p99",
         "target_mb": 2.7,
-        "icons": 1896,
+        "icons": 1793,
         "pages": 1,
         "shapes": {
           "map": {
-            "bytes": 2698512,
-            "gzip_bytes": 570621
+            "bytes": 2698034,
+            "gzip_bytes": 543374
           },
           "map-meta": {
-            "bytes": 2155908,
-            "gzip_bytes": 455476,
-            "sidecar_bytes": 631040
+            "bytes": 2184873,
+            "gzip_bytes": 434211,
+            "sidecar_bytes": 596727
           },
           "value": {
-            "bytes": 2174346,
-            "gzip_bytes": 339391
+            "bytes": 2056197,
+            "gzip_bytes": 320963
           },
           "value-meta": {
-            "bytes": 1631742,
-            "gzip_bytes": 227459,
-            "sidecar_bytes": 631040
+            "bytes": 1543036,
+            "gzip_bytes": 215173,
+            "sidecar_bytes": 596727
           },
           "hybrid": {
-            "bytes": 1758923,
-            "gzip_bytes": 279973,
-            "sidecar_bytes": 631040
+            "bytes": 1698352,
+            "gzip_bytes": 265262,
+            "sidecar_bytes": 596727
           }
         }
       },
       {
         "name": "p999",
         "target_mb": 7.3,
-        "icons": 5127,
+        "icons": 4848,
         "pages": 3,
         "shapes": {
           "map": {
-            "bytes": 7328097,
-            "gzip_bytes": 1543618
+            "bytes": 7325613,
+            "gzip_bytes": 1469674
           },
           "map-meta": {
-            "bytes": 5861010,
-            "gzip_bytes": 1231757,
-            "sidecar_bytes": 1708573
+            "bytes": 5938467,
+            "gzip_bytes": 1174108,
+            "sidecar_bytes": 1615454
           },
           "value": {
-            "bytes": 5883096,
-            "gzip_bytes": 915657
+            "bytes": 5562591,
+            "gzip_bytes": 865867
           },
           "value-meta": {
-            "bytes": 4416009,
-            "gzip_bytes": 612985,
-            "sidecar_bytes": 1708573
+            "bytes": 4175445,
+            "gzip_bytes": 579557,
+            "sidecar_bytes": 1615454
           },
           "hybrid": {
-            "bytes": 4785515,
-            "gzip_bytes": 755990,
-            "sidecar_bytes": 1708573
+            "bytes": 4620986,
+            "gzip_bytes": 715748,
+            "sidecar_bytes": 1615454
           }
         }
       },
       {
         "name": "over16",
         "target_mb": 20,
-        "icons": 14048,
-        "pages": 8,
+        "icons": 13283,
+        "pages": 7,
         "shapes": {
           "map": {
-            "bytes": 20125372,
-            "gzip_bytes": 4227625
+            "bytes": 20115896,
+            "gzip_bytes": 4026837
           },
           "map-meta": {
-            "bytes": 16105900,
-            "gzip_bytes": 3373127,
-            "sidecar_bytes": 4687159
+            "bytes": 16315361,
+            "gzip_bytes": 3216387,
+            "sidecar_bytes": 4431233
           },
           "value": {
-            "bytes": 16137886,
-            "gzip_bytes": 2506834
+            "bytes": 15257229,
+            "gzip_bytes": 2370663
           },
           "value-meta": {
-            "bytes": 12118414,
-            "gzip_bytes": 1676101,
-            "sidecar_bytes": 4687159
+            "bytes": 11456694,
+            "gzip_bytes": 1584967,
+            "sidecar_bytes": 4431233
           },
           "hybrid": {
-            "bytes": 13156995,
-            "gzip_bytes": 2069737,
-            "sidecar_bytes": 4687159
+            "bytes": 12703560,
+            "gzip_bytes": 1960095,
+            "sidecar_bytes": 4431233
           }
         }
       },
@@ -138,26 +138,26 @@
         "pages": 19,
         "shapes": {
           "map": {
-            "bytes": 51665819,
-            "gzip_bytes": 10838995
+            "bytes": 54617821,
+            "gzip_bytes": 10921720
           },
           "map-meta": {
-            "bytes": 41366085,
-            "gzip_bytes": 8652770,
+            "bytes": 44318087,
+            "gzip_bytes": 8723452,
             "sidecar_bytes": 12045095
           },
           "value": {
-            "bytes": 41422014,
-            "gzip_bytes": 6421465
+            "bytes": 41422016,
+            "gzip_bytes": 6421467
           },
           "value-meta": {
-            "bytes": 31122280,
-            "gzip_bytes": 4294210,
+            "bytes": 31122282,
+            "gzip_bytes": 4294217,
             "sidecar_bytes": 12045095
           },
           "hybrid": {
-            "bytes": 33807260,
-            "gzip_bytes": 5304290,
+            "bytes": 34527262,
+            "gzip_bytes": 5313702,
             "sidecar_bytes": 12045095
           }
         }
@@ -168,130 +168,57 @@
     {
       "fixture": "p50",
       "shape": "map",
-      "icons": 70,
-      "mb": 0.096781,
-      "gzip_mb": 0.021891,
+      "icons": 66,
+      "mb": 0.096628,
+      "gzip_mb": 0.020859,
       "sidecar_mb": 0,
       "yjs": {
-        "icons": 70,
-        "load_ms": 1.7591660022735596,
+        "icons": 66,
+        "load_ms": 1.9709579944610596,
         "load_ms_all": [
-          8.4,
-          4.6,
-          2.6,
-          1.8,
-          1.5,
-          1.1,
-          1.1,
-          1.4,
-          3.3,
-          2.7,
-          1.7,
-          1.1,
-          2.7,
-          2.5,
-          1.6,
-          1.8,
-          1.7,
-          1.1,
-          1.2,
-          3.3
-        ],
-        "to_js_ms": 0.4720420837402344,
-        "encode_ms": 4.034040927886963,
-        "edit_update_bytes": 22,
-        "concurrent_field_lost": false,
-        "converged": true,
-        "heap_mb": 1.73728,
-        "rss_mb": 3.2768,
-        "items": 70
-      },
-      "yrs": {
-        "edit_update_bytes": 27,
-        "encode_ms": 0.124125,
-        "icons": 70,
-        "load_ms": 0.7995,
-        "load_ms_all": [
-          1.3,
-          0.9,
-          0.8,
-          0.7,
-          0.7,
-          0.8,
-          0.7,
-          0.7,
-          0.7,
-          1.1,
-          0.7,
-          1.3,
-          0.8,
-          0.8,
-          0.7,
-          0.7,
-          0.7,
-          0.7,
-          0.8,
-          0.8
-        ],
-        "to_json_ms": 0.428209,
-        "items": 70,
-        "peak_rss_delta_mb": 2.228224
-      }
-    },
-    {
-      "fixture": "p50",
-      "shape": "map-meta",
-      "icons": 70,
-      "mb": 0.076724,
-      "gzip_mb": 0.017471,
-      "sidecar_mb": 0.023194,
-      "yjs": {
-        "icons": 70,
-        "load_ms": 1.6752500534057617,
-        "load_ms_all": [
-          6.8,
-          4.4,
-          1.7,
-          1.6,
-          1.7,
-          1,
-          1,
-          1.5,
-          1.7,
-          2.9,
+          6.5,
+          4.3,
           2.2,
-          1.7,
-          1.5,
-          1.7,
-          2.3,
-          2,
           1.6,
+          1.5,
+          2.9,
+          2.1,
           1.4,
-          1,
-          1.4
+          1.7,
+          1.1,
+          2.9,
+          2,
+          2,
+          1.7,
+          2.6,
+          1.7,
+          1.4,
+          1.4,
+          3.1,
+          1.8
         ],
-        "to_js_ms": 0.4202919006347656,
-        "encode_ms": 4.712125062942505,
-        "edit_update_bytes": 22,
+        "to_js_ms": 0.3497920036315918,
+        "encode_ms": 3.4344160556793213,
+        "edit_update_bytes": 26,
         "concurrent_field_lost": false,
         "converged": true,
-        "heap_mb": 1.661192,
-        "rss_mb": 4.66944,
-        "items": 70
+        "heap_mb": 1.646832,
+        "rss_mb": 4.456448,
+        "items": 66
       },
       "yrs": {
-        "edit_update_bytes": 27,
-        "encode_ms": 0.08533400000000001,
-        "icons": 70,
-        "load_ms": 0.591375,
+        "edit_update_bytes": 31,
+        "encode_ms": 0.112166,
+        "icons": 66,
+        "load_ms": 0.6160410000000001,
         "load_ms_all": [
-          0.8,
+          1.3,
+          0.7,
+          0.7,
           0.6,
           0.6,
           0.6,
-          0.6,
-          0.6,
-          0.6,
+          0.7,
           0.6,
           0.6,
           0.6,
@@ -303,1101 +230,1174 @@
           0.6,
           0.6,
           0.6,
-          0.7,
+          0.6,
           0.6
         ],
-        "to_json_ms": 0.319417,
-        "items": 70,
-        "peak_rss_delta_mb": 1.933312
+        "to_json_ms": 0.34425,
+        "items": 66,
+        "peak_rss_delta_mb": 2.162688
+      }
+    },
+    {
+      "fixture": "p50",
+      "shape": "map-meta",
+      "icons": 66,
+      "mb": 0.077721,
+      "gzip_mb": 0.016665,
+      "sidecar_mb": 0.021871,
+      "yjs": {
+        "icons": 66,
+        "load_ms": 1.5722501277923584,
+        "load_ms_all": [
+          6,
+          4.1,
+          1.8,
+          1.4,
+          1.6,
+          1.5,
+          1,
+          2.4,
+          1.9,
+          1.6,
+          2.8,
+          1.6,
+          1.2,
+          1.5,
+          2.6,
+          1.6,
+          1.5,
+          1.4,
+          1.1,
+          1.2
+        ],
+        "to_js_ms": 0.5686252117156982,
+        "encode_ms": 3.050333023071289,
+        "edit_update_bytes": 26,
+        "concurrent_field_lost": false,
+        "converged": true,
+        "heap_mb": 1.574824,
+        "rss_mb": 3.997696,
+        "items": 66
+      },
+      "yrs": {
+        "edit_update_bytes": 31,
+        "encode_ms": 0.091625,
+        "icons": 66,
+        "load_ms": 0.571,
+        "load_ms_all": [
+          0.7,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "to_json_ms": 0.38104099999999996,
+        "items": 66,
+        "peak_rss_delta_mb": 1.867776
       }
     },
     {
       "fixture": "p50",
       "shape": "value",
-      "icons": 70,
-      "mb": 0.079864,
-      "gzip_mb": 0.01381,
+      "icons": 66,
+      "mb": 0.075275,
+      "gzip_mb": 0.013101,
       "sidecar_mb": 0,
       "yjs": {
-        "icons": 70,
-        "load_ms": 1.7771670818328857,
+        "icons": 66,
+        "load_ms": 1.0538749694824219,
         "load_ms_all": [
-          4,
-          1.2,
-          1.8,
-          1.3,
+          4.2,
           1,
-          1.9,
+          1.6,
+          1,
+          1,
+          1.6,
+          1,
+          1,
           1.1,
-          1.5,
-          2.5,
-          2.4,
-          1.4,
-          2.3,
-          1.6,
-          2.2,
-          1.6,
-          2.5,
-          1.2,
-          2.2,
           1.7,
-          2.1
-        ],
-        "to_js_ms": 0.08629202842712402,
-        "encode_ms": 4.987792015075684,
-        "edit_update_bytes": 1119,
-        "concurrent_field_lost": true,
-        "converged": true,
-        "heap_mb": 0.532496,
-        "rss_mb": 1.245184,
-        "items": 70
-      },
-      "yrs": {
-        "edit_update_bytes": 1151,
-        "encode_ms": 0.119542,
-        "icons": 70,
-        "load_ms": 0.303334,
-        "load_ms_all": [
-          0.5,
-          0.3,
-          0.3,
-          0.3,
-          0.3,
-          0.3,
-          0.3,
-          0.3,
-          0.5,
-          0.4,
-          0.4,
-          0.3,
-          0.3,
-          0.4,
-          0.3,
-          0.5,
-          0.4,
-          0.3,
-          0.3,
-          0.2
-        ],
-        "to_json_ms": 0.007084,
-        "items": 70,
-        "peak_rss_delta_mb": 1.359872
-      }
-    },
-    {
-      "fixture": "p50",
-      "shape": "value-meta",
-      "icons": 70,
-      "mb": 0.059807,
-      "gzip_mb": 0.009453,
-      "sidecar_mb": 0.023194,
-      "yjs": {
-        "icons": 70,
-        "load_ms": 1.6277501583099365,
-        "load_ms_all": [
-          5.9,
-          2.5,
-          1.3,
-          2,
-          1.8,
-          1.1,
-          2.3,
-          1.3,
-          1.9,
-          1.6,
-          1.5,
-          1.1,
-          2.2,
-          1.1,
-          1.3,
-          1.9,
-          1.6,
-          1.7,
-          1.3,
-          1.3
-        ],
-        "to_js_ms": 0.16958308219909668,
-        "encode_ms": 4.343666076660156,
-        "edit_update_bytes": 838,
-        "concurrent_field_lost": true,
-        "converged": true,
-        "heap_mb": 0.4558,
-        "rss_mb": 1.277952,
-        "items": 70
-      },
-      "yrs": {
-        "edit_update_bytes": 854,
-        "encode_ms": 0.122541,
-        "icons": 70,
-        "load_ms": 0.20891700000000002,
-        "load_ms_all": [
-          0.4,
-          0.2,
-          0.2,
-          0.3,
-          0.2,
-          0.2,
-          0.3,
-          0.2,
-          0.3,
-          0.3,
-          0.2,
-          0.2,
-          0.2,
-          0.2,
-          0.2,
-          0.2,
-          0.2,
-          0.2,
-          0.2,
-          0.2
-        ],
-        "to_json_ms": 0.0055,
-        "items": 70,
-        "peak_rss_delta_mb": 1.114112
-      }
-    },
-    {
-      "fixture": "p50",
-      "shape": "hybrid",
-      "icons": 70,
-      "mb": 0.064238,
-      "gzip_mb": 0.011326,
-      "sidecar_mb": 0.023194,
-      "yjs": {
-        "icons": 70,
-        "load_ms": 1.9033339023590088,
-        "load_ms_all": [
-          5.4,
-          3.1,
-          1.9,
-          2.1,
-          1.7,
-          1.6,
-          2.4,
-          2,
-          1.6,
+          1,
           0.9,
-          2,
-          1.6,
-          2,
-          1.6,
           1.3,
+          1.7,
+          1.1,
           1,
-          1.4,
-          1.5,
-          1.9,
-          2
+          0.9,
+          0.9,
+          1.8,
+          1.2
         ],
-        "to_js_ms": 0.14645814895629883,
-        "encode_ms": 3.187458038330078,
-        "edit_update_bytes": 22,
-        "concurrent_field_lost": false,
+        "to_js_ms": 0.05083298683166504,
+        "encode_ms": 2.797791004180908,
+        "edit_update_bytes": 1124,
+        "concurrent_field_lost": true,
         "converged": true,
-        "heap_mb": 0.790648,
-        "rss_mb": 1.589248,
-        "items": 70
+        "heap_mb": 0.5088,
+        "rss_mb": 1.196032,
+        "items": 66
       },
       "yrs": {
-        "edit_update_bytes": 27,
-        "encode_ms": 0.094709,
-        "icons": 70,
-        "load_ms": 0.32941600000000004,
+        "edit_update_bytes": 1137,
+        "encode_ms": 0.112958,
+        "icons": 66,
+        "load_ms": 0.23525,
         "load_ms_all": [
           0.6,
           0.3,
           0.3,
-          0.4,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
           0.3,
-          0.4,
-          0.3,
-          0.3,
-          0.3,
-          0.3,
-          0.3,
-          0.3,
-          0.4,
-          0.5,
-          0.3,
-          0.3,
-          0.3,
-          0.3,
-          0.4,
-          0.5
+          0.2
         ],
-        "to_json_ms": 0.097458,
-        "items": 70,
-        "peak_rss_delta_mb": 1.441792
+        "to_json_ms": 0.001583,
+        "items": 66,
+        "peak_rss_delta_mb": 1.343488
+      }
+    },
+    {
+      "fixture": "p50",
+      "shape": "value-meta",
+      "icons": 66,
+      "mb": 0.056368,
+      "gzip_mb": 0.008979,
+      "sidecar_mb": 0.021871,
+      "yjs": {
+        "icons": 66,
+        "load_ms": 0.8675839900970459,
+        "load_ms_all": [
+          3.6,
+          1.8,
+          0.8,
+          1.4,
+          0.9,
+          0.8,
+          1.4,
+          0.8,
+          1,
+          0.7,
+          1.5,
+          0.9,
+          0.8,
+          1.3,
+          0.8,
+          0.7,
+          0.7,
+          1.4,
+          0.7,
+          0.7
+        ],
+        "to_js_ms": 0.037915945053100586,
+        "encode_ms": 2.311167001724243,
+        "edit_update_bytes": 842,
+        "concurrent_field_lost": true,
+        "converged": true,
+        "heap_mb": 0.436376,
+        "rss_mb": 1.2288,
+        "items": 66
+      },
+      "yrs": {
+        "edit_update_bytes": 850,
+        "encode_ms": 0.080417,
+        "icons": 66,
+        "load_ms": 0.16520900000000002,
+        "load_ms_all": [
+          0.3,
+          0.2,
+          0.2,
+          0.3,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "to_json_ms": 0.001583,
+        "items": 66,
+        "peak_rss_delta_mb": 1.048576
+      }
+    },
+    {
+      "fixture": "p50",
+      "shape": "hybrid",
+      "icons": 66,
+      "mb": 0.061859,
+      "gzip_mb": 0.010753,
+      "sidecar_mb": 0.021871,
+      "yjs": {
+        "icons": 66,
+        "load_ms": 1.318915843963623,
+        "load_ms_all": [
+          4.4,
+          2,
+          1.5,
+          1.3,
+          1.8,
+          1.1,
+          2.5,
+          1.3,
+          1.2,
+          0.9,
+          1.9,
+          1.2,
+          1.1,
+          1.8,
+          1.3,
+          0.9,
+          0.8,
+          0.8,
+          1.7,
+          1.6
+        ],
+        "to_js_ms": 0.1782078742980957,
+        "encode_ms": 2.7327919006347656,
+        "edit_update_bytes": 26,
+        "concurrent_field_lost": false,
+        "converged": true,
+        "heap_mb": 0.75348,
+        "rss_mb": 1.376256,
+        "items": 66
+      },
+      "yrs": {
+        "edit_update_bytes": 31,
+        "encode_ms": 0.090584,
+        "icons": 66,
+        "load_ms": 0.29512499999999997,
+        "load_ms_all": [
+          0.5,
+          0.4,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.4,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.4,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3
+        ],
+        "to_json_ms": 0.081,
+        "items": 66,
+        "peak_rss_delta_mb": 1.425408
       }
     },
     {
       "fixture": "p99",
       "shape": "map",
-      "icons": 1896,
-      "mb": 2.698512,
-      "gzip_mb": 0.570621,
+      "icons": 1793,
+      "mb": 2.698034,
+      "gzip_mb": 0.543374,
       "sidecar_mb": 0,
       "yjs": {
-        "icons": 1896,
-        "load_ms": 63.46999979019165,
+        "icons": 1793,
+        "load_ms": 59.71095895767212,
         "load_ms_all": [
-          63.5,
-          58.6,
-          53.7,
-          47.8,
-          64,
-          57.6,
-          56.2,
-          66.8,
-          91.2,
-          105.8
+          107.9,
+          60.6,
+          59.7,
+          57.1,
+          53.6,
+          51.8,
+          53.6,
+          56.5,
+          80.2,
+          72.4
         ],
-        "to_js_ms": 19.147833108901978,
-        "encode_ms": 37.2801251411438,
-        "edit_update_bytes": 22,
+        "to_js_ms": 14.203041791915894,
+        "encode_ms": 32.18970799446106,
+        "edit_update_bytes": 26,
         "concurrent_field_lost": false,
         "converged": true,
-        "heap_mb": 41.14784,
-        "rss_mb": 81.248256,
-        "items": 1896
+        "heap_mb": 38.673296,
+        "rss_mb": 77.955072,
+        "items": 1793
       },
       "yrs": {
-        "edit_update_bytes": 27,
-        "encode_ms": 3.336,
-        "icons": 1896,
-        "load_ms": 23.237042,
+        "edit_update_bytes": 33,
+        "encode_ms": 4.334166000000001,
+        "icons": 1793,
+        "load_ms": 29.941540999999997,
         "load_ms_all": [
-          23.3,
-          21.5,
-          25.3,
-          23.2,
-          21,
-          31.2,
-          25.7,
-          21.7,
-          21.6,
-          21.1
+          51.7,
+          26.9,
+          29.9,
+          24.5,
+          49.1,
+          29.3,
+          39.8,
+          31.8,
+          28.4,
+          25.8
         ],
-        "to_json_ms": 13.577541,
-        "items": 1896,
-        "peak_rss_delta_mb": 44.138496
+        "to_json_ms": 14.949667,
+        "items": 1793,
+        "peak_rss_delta_mb": 41.582592
       }
     },
     {
       "fixture": "p99",
       "shape": "map-meta",
-      "icons": 1896,
-      "mb": 2.155908,
-      "gzip_mb": 0.455476,
-      "sidecar_mb": 0.63104,
+      "icons": 1793,
+      "mb": 2.184873,
+      "gzip_mb": 0.434211,
+      "sidecar_mb": 0.596727,
       "yjs": {
-        "icons": 1896,
-        "load_ms": 53.83191704750061,
+        "icons": 1793,
+        "load_ms": 58.442749977111816,
         "load_ms_all": [
-          63.2,
-          56.3,
-          46.1,
-          48.5,
-          55.7,
-          49.2,
-          51.8,
-          53.8,
-          54.1,
-          53.6
+          70.9,
+          67.2,
+          44.2,
+          47.2,
+          49.1,
+          55.2,
+          57,
+          58.4,
+          77.5,
+          83.6
         ],
-        "to_js_ms": 12.69837498664856,
-        "encode_ms": 28.82504105567932,
-        "edit_update_bytes": 22,
+        "to_js_ms": 18.07225012779236,
+        "encode_ms": 35.90737509727478,
+        "edit_update_bytes": 26,
         "concurrent_field_lost": false,
         "converged": true,
-        "heap_mb": 39.175336,
-        "rss_mb": 79.200256,
-        "items": 1896
+        "heap_mb": 36.84464,
+        "rss_mb": 77.791232,
+        "items": 1793
       },
       "yrs": {
-        "edit_update_bytes": 29,
-        "encode_ms": 2.596958,
-        "icons": 1896,
-        "load_ms": 16.578584,
+        "edit_update_bytes": 31,
+        "encode_ms": 2.534459,
+        "icons": 1793,
+        "load_ms": 22.06,
         "load_ms_all": [
-          19.2,
+          23.1,
+          23.8,
+          23.1,
+          18.7,
           17.5,
-          16,
-          16.4,
-          16.9,
-          16.5,
-          16.2,
-          16.2,
-          16.6,
-          17
+          22.8,
+          18.6,
+          17.8,
+          19.9,
+          22.1
         ],
-        "to_json_ms": 12.274000000000001,
-        "items": 1896,
-        "peak_rss_delta_mb": 38.289408
+        "to_json_ms": 13.471917,
+        "items": 1793,
+        "peak_rss_delta_mb": 36.192256
       }
     },
     {
       "fixture": "p99",
       "shape": "value",
-      "icons": 1896,
-      "mb": 2.174346,
-      "gzip_mb": 0.339391,
+      "icons": 1793,
+      "mb": 2.056197,
+      "gzip_mb": 0.320963,
       "sidecar_mb": 0,
       "yjs": {
-        "icons": 1896,
-        "load_ms": 24.57437515258789,
+        "icons": 1793,
+        "load_ms": 34.567749977111816,
         "load_ms_all": [
-          29.6,
-          26.1,
-          24,
-          22.2,
-          26.7,
-          23.8,
-          24.7,
-          22.7,
-          24.2,
-          24.6
+          39.2,
+          33.3,
+          31.8,
+          28.3,
+          34.8,
+          36.7,
+          31.4,
+          34.6,
+          32.2,
+          39.6
         ],
-        "to_js_ms": 0.939000129699707,
-        "encode_ms": 22.9377920627594,
-        "edit_update_bytes": 1120,
+        "to_js_ms": 1.5945408344268799,
+        "encode_ms": 30.376291036605835,
+        "edit_update_bytes": 1124,
         "concurrent_field_lost": true,
         "converged": true,
-        "heap_mb": 8.840352,
-        "rss_mb": 21.168128,
-        "items": 1896
+        "heap_mb": 8.368536,
+        "rss_mb": 20.56192,
+        "items": 1793
       },
       "yrs": {
-        "edit_update_bytes": 1148,
-        "encode_ms": 3.84475,
-        "icons": 1896,
-        "load_ms": 8.517583,
+        "edit_update_bytes": 1159,
+        "encode_ms": 4.038291999999999,
+        "icons": 1793,
+        "load_ms": 10.975999999999999,
         "load_ms_all": [
+          13.3,
+          11,
           9.1,
-          9.3,
-          8.5,
-          8.6,
+          11,
+          12.1,
           8.8,
-          8.3,
-          8.2,
-          7.7,
-          7.4,
-          8
+          11.1,
+          10.6,
+          10.6,
+          10.2
         ],
-        "to_json_ms": 0.196333,
-        "items": 1896,
-        "peak_rss_delta_mb": 21.610496
+        "to_json_ms": 0.177,
+        "items": 1793,
+        "peak_rss_delta_mb": 20.463616
       }
     },
     {
       "fixture": "p99",
       "shape": "value-meta",
-      "icons": 1896,
-      "mb": 1.631742,
-      "gzip_mb": 0.227459,
-      "sidecar_mb": 0.63104,
+      "icons": 1793,
+      "mb": 1.543036,
+      "gzip_mb": 0.215173,
+      "sidecar_mb": 0.596727,
       "yjs": {
-        "icons": 1896,
-        "load_ms": 19.667500019073486,
+        "icons": 1793,
+        "load_ms": 27.23991584777832,
         "load_ms_all": [
-          30.8,
-          29.3,
-          19.8,
-          22.2,
-          17.9,
-          17.3,
-          19.7,
-          17.4,
-          17.9,
-          19.2
+          35.8,
+          27.2,
+          23.3,
+          24.2,
+          27,
+          24.5,
+          29.6,
+          16.9,
+          29.1,
+          30.9
         ],
-        "to_js_ms": 1.1327078342437744,
-        "encode_ms": 14.663208961486816,
-        "edit_update_bytes": 838,
+        "to_js_ms": 2.133082866668701,
+        "encode_ms": 26.372416019439697,
+        "edit_update_bytes": 841,
         "concurrent_field_lost": true,
         "converged": true,
-        "heap_mb": 6.914728,
-        "rss_mb": 17.891328,
-        "items": 1896
+        "heap_mb": 6.546944,
+        "rss_mb": 16.891904,
+        "items": 1793
       },
       "yrs": {
-        "edit_update_bytes": 871,
-        "encode_ms": 2.42975,
-        "icons": 1896,
-        "load_ms": 5.152416,
+        "edit_update_bytes": 863,
+        "encode_ms": 2.952208,
+        "icons": 1793,
+        "load_ms": 7.214917000000001,
         "load_ms_all": [
-          6.1,
-          5.4,
-          5.5,
-          5.4,
-          5,
-          5,
-          5.1,
-          5.2,
-          5,
-          5
+          10.3,
+          7.4,
+          7,
+          6.7,
+          6.2,
+          7.2,
+          7,
+          6.8,
+          7.3,
+          8.7
         ],
-        "to_json_ms": 0.110042,
-        "items": 1896,
-        "peak_rss_delta_mb": 15.679488
+        "to_json_ms": 0.32983300000000004,
+        "items": 1793,
+        "peak_rss_delta_mb": 14.90944
       }
     },
     {
       "fixture": "p99",
       "shape": "hybrid",
-      "icons": 1896,
-      "mb": 1.758923,
-      "gzip_mb": 0.279973,
-      "sidecar_mb": 0.63104,
+      "icons": 1793,
+      "mb": 1.698352,
+      "gzip_mb": 0.265262,
+      "sidecar_mb": 0.596727,
       "yjs": {
-        "icons": 1896,
-        "load_ms": 28.916666984558105,
+        "icons": 1793,
+        "load_ms": 29.31179189682007,
         "load_ms_all": [
-          42.5,
-          31.9,
-          30.6,
-          25.1,
-          28.9,
-          34.1,
-          27.7,
-          25.8,
-          26.5,
-          28.7
+          35.9,
+          32.7,
+          25.6,
+          23.5,
+          24.2,
+          28.1,
+          29.5,
+          29.3,
+          32,
+          26.2
         ],
-        "to_js_ms": 2.9696669578552246,
-        "encode_ms": 19.207749843597412,
-        "edit_update_bytes": 21,
+        "to_js_ms": 3.3229591846466064,
+        "encode_ms": 25.167041778564453,
+        "edit_update_bytes": 26,
         "concurrent_field_lost": false,
         "converged": true,
-        "heap_mb": 15.651144,
-        "rss_mb": 36.405248,
-        "items": 1896
+        "heap_mb": 14.82576,
+        "rss_mb": 36.12672,
+        "items": 1793
       },
       "yrs": {
-        "edit_update_bytes": 27,
-        "encode_ms": 2.787541,
-        "icons": 1896,
-        "load_ms": 7.780958,
+        "edit_update_bytes": 31,
+        "encode_ms": 3.1458749999999998,
+        "icons": 1793,
+        "load_ms": 7.1745,
         "load_ms_all": [
-          10,
-          7.9,
-          7.3,
+          8.9,
+          8.6,
+          8.3,
           7.2,
+          7,
+          7,
+          7.1,
+          7,
           7.3,
-          7.8,
-          7.5,
-          7.9,
-          7.5,
-          7.9
+          6.9
         ],
-        "to_json_ms": 3.612042,
-        "items": 1896,
-        "peak_rss_delta_mb": 23.281664
+        "to_json_ms": 3.1767499999999997,
+        "items": 1793,
+        "peak_rss_delta_mb": 22.020096
       }
     },
     {
       "fixture": "p999",
       "shape": "map",
-      "icons": 5127,
-      "mb": 7.328097,
-      "gzip_mb": 1.543618,
+      "icons": 4848,
+      "mb": 7.325613,
+      "gzip_mb": 1.469674,
       "sidecar_mb": 0,
       "yjs": {
-        "icons": 5127,
-        "load_ms": 132.51695799827576,
+        "icons": 4848,
+        "load_ms": 162.35249996185303,
         "load_ms_all": [
-          149.8,
-          154.8,
-          124.5,
-          114.8,
-          132.5
+          200.5,
+          162.4,
+          160.7,
+          232.6,
+          156.4
         ],
-        "to_js_ms": 21.95295786857605,
-        "encode_ms": 58.273624897003174,
-        "edit_update_bytes": 22,
+        "to_js_ms": 36.564374923706055,
+        "encode_ms": 77.94474983215332,
+        "edit_update_bytes": 26,
         "concurrent_field_lost": false,
         "converged": true,
-        "heap_mb": 110.237576,
-        "rss_mb": 165.576704,
-        "items": 5127
+        "heap_mb": 104.3746,
+        "rss_mb": 158.056448,
+        "items": 4848
       },
       "yrs": {
-        "edit_update_bytes": 29,
-        "encode_ms": 9.090083,
-        "icons": 5127,
-        "load_ms": 54.839166,
+        "edit_update_bytes": 31,
+        "encode_ms": 9.633458,
+        "icons": 4848,
+        "load_ms": 54.185334000000005,
         "load_ms_all": [
-          59.1,
-          55.7,
-          54.8,
-          52.4,
-          49.1
+          65.6,
+          53.4,
+          53.7,
+          66.5,
+          54.2
         ],
-        "to_json_ms": 30.467584,
-        "items": 5127,
-        "peak_rss_delta_mb": 113.885184
+        "to_json_ms": 30.859833,
+        "items": 4848,
+        "peak_rss_delta_mb": 107.954176
       }
     },
     {
       "fixture": "p999",
       "shape": "map-meta",
-      "icons": 5127,
-      "mb": 5.86101,
-      "gzip_mb": 1.231757,
-      "sidecar_mb": 1.708573,
+      "icons": 4848,
+      "mb": 5.938467,
+      "gzip_mb": 1.174108,
+      "sidecar_mb": 1.615454,
       "yjs": {
-        "icons": 5127,
-        "load_ms": 123.53058314323425,
+        "icons": 4848,
+        "load_ms": 144.14016699790955,
         "load_ms_all": [
-          133.5,
-          120.8,
-          130.8,
-          115.9,
-          123.5
+          203.6,
+          152.3,
+          139.6,
+          113.9,
+          144.1
         ],
-        "to_js_ms": 27.28720784187317,
-        "encode_ms": 68.42220783233643,
-        "edit_update_bytes": 22,
+        "to_js_ms": 29.564291954040527,
+        "encode_ms": 54.02675008773804,
+        "edit_update_bytes": 26,
         "concurrent_field_lost": false,
         "converged": true,
-        "heap_mb": 105.030096,
-        "rss_mb": 160.038912,
-        "items": 5127
+        "heap_mb": 99.448672,
+        "rss_mb": 149.74976,
+        "items": 4848
       },
       "yrs": {
-        "edit_update_bytes": 29,
-        "encode_ms": 5.938042,
-        "icons": 5127,
-        "load_ms": 52.698625,
+        "edit_update_bytes": 31,
+        "encode_ms": 8.742834,
+        "icons": 4848,
+        "load_ms": 68.18829099999999,
         "load_ms_all": [
-          55.8,
-          55.3,
-          52.7,
-          43.9,
-          43.9
+          73.4,
+          68.2,
+          75.7,
+          68,
+          67.2
         ],
-        "to_json_ms": 30.390207999999998,
-        "items": 5127,
-        "peak_rss_delta_mb": 98.074624
+        "to_json_ms": 39.282167,
+        "items": 4848,
+        "peak_rss_delta_mb": 92.946432
       }
     },
     {
       "fixture": "p999",
       "shape": "value",
-      "icons": 5127,
-      "mb": 5.883096,
-      "gzip_mb": 0.915657,
+      "icons": 4848,
+      "mb": 5.562591,
+      "gzip_mb": 0.865867,
       "sidecar_mb": 0,
       "yjs": {
-        "icons": 5127,
-        "load_ms": 63.28975009918213,
+        "icons": 4848,
+        "load_ms": 81.8200421333313,
         "load_ms_all": [
-          72.4,
-          66.9,
-          63.3,
-          62.5,
-          62.8
+          90,
+          70.7,
+          75.3,
+          81.8,
+          88.1
         ],
-        "to_js_ms": 1.831125020980835,
-        "encode_ms": 37.043750047683716,
-        "edit_update_bytes": 1120,
+        "to_js_ms": 2.655458927154541,
+        "encode_ms": 55.30829215049744,
+        "edit_update_bytes": 1124,
         "concurrent_field_lost": true,
         "converged": true,
-        "heap_mb": 23.610904,
-        "rss_mb": 50.774016,
-        "items": 5127
+        "heap_mb": 22.347976,
+        "rss_mb": 50.46272,
+        "items": 4848
       },
       "yrs": {
-        "edit_update_bytes": 1133,
-        "encode_ms": 9.175542,
-        "icons": 5127,
-        "load_ms": 20.465291999999998,
+        "edit_update_bytes": 1147,
+        "encode_ms": 8.644708,
+        "icons": 4848,
+        "load_ms": 19.252042,
         "load_ms_all": [
           24.3,
-          22,
-          20.5,
-          20.1,
-          19
+          19.3,
+          19.7,
+          18.6,
+          17.7
         ],
-        "to_json_ms": 0.40575,
-        "items": 5127,
-        "peak_rss_delta_mb": 56.262656
+        "to_json_ms": 0.43554200000000004,
+        "items": 4848,
+        "peak_rss_delta_mb": 53.280768
       }
     },
     {
       "fixture": "p999",
       "shape": "value-meta",
-      "icons": 5127,
-      "mb": 4.416009,
-      "gzip_mb": 0.612985,
-      "sidecar_mb": 1.708573,
+      "icons": 4848,
+      "mb": 4.175445,
+      "gzip_mb": 0.579557,
+      "sidecar_mb": 1.615454,
       "yjs": {
-        "icons": 5127,
-        "load_ms": 49.103832960128784,
+        "icons": 4848,
+        "load_ms": 52.43679118156433,
         "load_ms_all": [
-          55.3,
-          49.1,
-          45.5,
+          63.4,
           47.4,
-          82.8
+          49.2,
+          56.1,
+          52.4
         ],
-        "to_js_ms": 4.258625030517578,
-        "encode_ms": 57.10929203033447,
-        "edit_update_bytes": 837,
+        "to_js_ms": 2.792541980743408,
+        "encode_ms": 40.9126660823822,
+        "edit_update_bytes": 842,
         "concurrent_field_lost": true,
         "converged": true,
-        "heap_mb": 18.406704,
-        "rss_mb": 45.54752,
-        "items": 5127
+        "heap_mb": 17.4284,
+        "rss_mb": 46.088192,
+        "items": 4848
       },
       "yrs": {
-        "edit_update_bytes": 867,
-        "encode_ms": 7.301292,
-        "icons": 5127,
-        "load_ms": 15.079125000000001,
+        "edit_update_bytes": 863,
+        "encode_ms": 8.274750000000001,
+        "icons": 4848,
+        "load_ms": 18.889958,
         "load_ms_all": [
-          15.7,
-          14.9,
-          15.1,
-          14,
-          15.3
+          23.3,
+          21.9,
+          17.9,
+          18.9,
+          18.5
         ],
-        "to_json_ms": 0.39187500000000003,
-        "items": 5127,
-        "peak_rss_delta_mb": 40.5504
+        "to_json_ms": 0.52275,
+        "items": 4848,
+        "peak_rss_delta_mb": 38.518784
       }
     },
     {
       "fixture": "p999",
       "shape": "hybrid",
-      "icons": 5127,
-      "mb": 4.785515,
-      "gzip_mb": 0.75599,
-      "sidecar_mb": 1.708573,
+      "icons": 4848,
+      "mb": 4.620986,
+      "gzip_mb": 0.715748,
+      "sidecar_mb": 1.615454,
       "yjs": {
-        "icons": 5127,
-        "load_ms": 93.96858286857605,
+        "icons": 4848,
+        "load_ms": 88.43149995803833,
         "load_ms_all": [
-          113.3,
-          98.8,
-          94,
-          77.1,
-          79.7
+          97.8,
+          92.4,
+          88.4,
+          85.3,
+          75.3
         ],
-        "to_js_ms": 18.493041038513184,
-        "encode_ms": 51.54166603088379,
-        "edit_update_bytes": 22,
+        "to_js_ms": 6.099625110626221,
+        "encode_ms": 38.15204095840454,
+        "edit_update_bytes": 26,
         "concurrent_field_lost": false,
         "converged": true,
-        "heap_mb": 42.010664,
-        "rss_mb": 79.62624,
-        "items": 5127
+        "heap_mb": 39.789232,
+        "rss_mb": 76.84096,
+        "items": 4848
       },
       "yrs": {
-        "edit_update_bytes": 27,
-        "encode_ms": 7.47875,
-        "icons": 5127,
-        "load_ms": 29.178124999999998,
+        "edit_update_bytes": 31,
+        "encode_ms": 7.0101249999999995,
+        "icons": 4848,
+        "load_ms": 21.191000000000003,
         "load_ms_all": [
-          29.2,
-          47.8,
-          29.5,
-          21.1,
-          22.3
+          26.4,
+          29.6,
+          21.2,
+          20.7,
+          19.8
         ],
-        "to_json_ms": 9.007708999999998,
-        "items": 5127,
-        "peak_rss_delta_mb": 60.391424
+        "to_json_ms": 8.379249999999999,
+        "items": 4848,
+        "peak_rss_delta_mb": 57.229312
       }
     },
     {
       "fixture": "over16",
       "shape": "map",
-      "icons": 14048,
-      "mb": 20.125372,
-      "gzip_mb": 4.227625,
+      "icons": 13283,
+      "mb": 20.115896,
+      "gzip_mb": 4.026837,
       "sidecar_mb": 0,
       "yjs": {
-        "icons": 14048,
-        "load_ms": 436.1407091617584,
+        "icons": 13283,
+        "load_ms": 406.63183307647705,
         "load_ms_all": [
-          433.9,
-          496,
-          436.1
+          352.9,
+          406.6,
+          511.6
         ],
-        "to_js_ms": 46.887624979019165,
-        "encode_ms": 149.24612498283386,
-        "edit_update_bytes": 22,
+        "to_js_ms": 45.766666889190674,
+        "encode_ms": 147.5445420742035,
+        "edit_update_bytes": 26,
         "concurrent_field_lost": false,
         "converged": true,
-        "heap_mb": 302.545432,
-        "rss_mb": 398.884864,
-        "items": 14048
+        "heap_mb": 284.164416,
+        "rss_mb": 377.257984,
+        "items": 13283
       },
       "yrs": {
-        "edit_update_bytes": 29,
-        "encode_ms": 24.904041,
-        "icons": 14048,
-        "load_ms": 168.548416,
+        "edit_update_bytes": 33,
+        "encode_ms": 39.537000000000006,
+        "icons": 13283,
+        "load_ms": 172.771417,
         "load_ms_all": [
-          168.5,
-          164,
-          195.4
+          262.8,
+          172.8,
+          158.6
         ],
-        "to_json_ms": 87.85929200000001,
-        "items": 14048,
-        "peak_rss_delta_mb": 307.314688
+        "to_json_ms": 98.321541,
+        "items": 13283,
+        "peak_rss_delta_mb": 291.405824
       }
     },
     {
       "fixture": "over16",
       "shape": "map-meta",
-      "icons": 14048,
-      "mb": 16.1059,
-      "gzip_mb": 3.373127,
-      "sidecar_mb": 4.687159,
+      "icons": 13283,
+      "mb": 16.315361,
+      "gzip_mb": 3.216387,
+      "sidecar_mb": 4.431233,
       "yjs": {
-        "icons": 14048,
-        "load_ms": 345.97087502479553,
+        "icons": 13283,
+        "load_ms": 370.7546670436859,
         "load_ms_all": [
-          346,
-          359.4,
-          326.3
+          416.6,
+          370.8,
+          351.5
         ],
-        "to_js_ms": 61.383709192276,
-        "encode_ms": 118.75620889663696,
-        "edit_update_bytes": 22,
+        "to_js_ms": 60.02150011062622,
+        "encode_ms": 170.14804220199585,
+        "edit_update_bytes": 26,
         "concurrent_field_lost": false,
         "converged": true,
-        "heap_mb": 288.28628,
-        "rss_mb": 382.140416,
-        "items": 14048
+        "heap_mb": 270.681744,
+        "rss_mb": 362.65984,
+        "items": 13283
       },
       "yrs": {
-        "edit_update_bytes": 29,
-        "encode_ms": 21.558291999999998,
-        "icons": 14048,
-        "load_ms": 173.291708,
+        "edit_update_bytes": 33,
+        "encode_ms": 27.040833,
+        "icons": 13283,
+        "load_ms": 150.232041,
         "load_ms_all": [
-          198,
-          173.3,
-          162.5
+          149.9,
+          150.2,
+          170.2
         ],
-        "to_json_ms": 95.053792,
-        "items": 14048,
-        "peak_rss_delta_mb": 264.536064
+        "to_json_ms": 108.511042,
+        "items": 13283,
+        "peak_rss_delta_mb": 218.464256
       }
     },
     {
       "fixture": "over16",
       "shape": "value",
-      "icons": 14048,
-      "mb": 16.137886,
-      "gzip_mb": 2.506834,
+      "icons": 13283,
+      "mb": 15.257229,
+      "gzip_mb": 2.370663,
       "sidecar_mb": 0,
       "yjs": {
-        "icons": 14048,
-        "load_ms": 264.8148329257965,
+        "icons": 13283,
+        "load_ms": 186.515625,
         "load_ms_all": [
-          210.3,
-          264.8,
-          303.3
+          186.5,
+          184.4,
+          188.5
         ],
-        "to_js_ms": 4.148916959762573,
-        "encode_ms": 141.9418749809265,
-        "edit_update_bytes": 1120,
+        "to_js_ms": 3.6838748455047607,
+        "encode_ms": 99.76462507247925,
+        "edit_update_bytes": 1124,
         "concurrent_field_lost": true,
         "converged": true,
-        "heap_mb": 64.339272,
-        "rss_mb": 94.224384,
-        "items": 14048
+        "heap_mb": 60.554584,
+        "rss_mb": 89.12896,
+        "items": 13283
+      },
+      "yrs": {
+        "edit_update_bytes": 1141,
+        "encode_ms": 26.110416,
+        "icons": 13283,
+        "load_ms": 66.414958,
+        "load_ms_all": [
+          68.6,
+          66.4,
+          65.9
+        ],
+        "to_json_ms": 2.102125,
+        "items": 13283,
+        "peak_rss_delta_mb": 143.884288
+      }
+    },
+    {
+      "fixture": "over16",
+      "shape": "value-meta",
+      "icons": 13283,
+      "mb": 11.456694,
+      "gzip_mb": 1.584967,
+      "sidecar_mb": 4.431233,
+      "yjs": {
+        "icons": 13283,
+        "load_ms": 186.78466606140137,
+        "load_ms_all": [
+          194.4,
+          179.1,
+          186.8
+        ],
+        "to_js_ms": 4.667500019073486,
+        "encode_ms": 78.4626669883728,
+        "edit_update_bytes": 842,
+        "concurrent_field_lost": true,
+        "converged": true,
+        "heap_mb": 47.076312,
+        "rss_mb": 75.579392,
+        "items": 13283
+      },
+      "yrs": {
+        "edit_update_bytes": 866,
+        "encode_ms": 17.259166,
+        "icons": 13283,
+        "load_ms": 49.972500000000004,
+        "load_ms_all": [
+          62.7,
+          43.5,
+          50
+        ],
+        "to_json_ms": 1.785083,
+        "items": 13283,
+        "peak_rss_delta_mb": 103.415808
+      }
+    },
+    {
+      "fixture": "over16",
+      "shape": "hybrid",
+      "icons": 13283,
+      "mb": 12.70356,
+      "gzip_mb": 1.960095,
+      "sidecar_mb": 4.431233,
+      "yjs": {
+        "icons": 13283,
+        "load_ms": 212.63674998283386,
+        "load_ms_all": [
+          235.1,
+          204.1,
+          212.6
+        ],
+        "to_js_ms": 12.422125101089478,
+        "encode_ms": 95.09566617012024,
+        "edit_update_bytes": 26,
+        "concurrent_field_lost": false,
+        "converged": true,
+        "heap_mb": 107.48176,
+        "rss_mb": 151.912448,
+        "items": 13283
+      },
+      "yrs": {
+        "edit_update_bytes": 33,
+        "encode_ms": 18.713583999999997,
+        "icons": 13283,
+        "load_ms": 80.5595,
+        "load_ms_all": [
+          82.7,
+          80.6,
+          73.8
+        ],
+        "to_json_ms": 25.218625000000003,
+        "items": 13283,
+        "peak_rss_delta_mb": 155.451392
+      }
+    },
+    {
+      "fixture": "max",
+      "shape": "map",
+      "icons": 36000,
+      "mb": 54.617821,
+      "gzip_mb": 10.92172,
+      "sidecar_mb": 0,
+      "yjs": {
+        "icons": 36000,
+        "load_ms": 2170.236499786377,
+        "load_ms_all": [
+          1455.4,
+          2170.2,
+          2333.8
+        ],
+        "to_js_ms": 240.2245831489563,
+        "encode_ms": 650.40625,
+        "edit_update_bytes": 26,
+        "concurrent_field_lost": false,
+        "converged": true,
+        "heap_mb": 773.250584,
+        "rss_mb": 971.554816,
+        "items": 36000
+      },
+      "yrs": {
+        "edit_update_bytes": 33,
+        "encode_ms": 105.970416,
+        "icons": 36000,
+        "load_ms": 418.390458,
+        "load_ms_all": [
+          546.2,
+          418.4,
+          393.3
+        ],
+        "to_json_ms": 257.58133300000003,
+        "items": 36000,
+        "peak_rss_delta_mb": 786.169856
+      }
+    },
+    {
+      "fixture": "max",
+      "shape": "map-meta",
+      "icons": 36000,
+      "mb": 44.318087,
+      "gzip_mb": 8.723452,
+      "sidecar_mb": 12.045095,
+      "yjs": {
+        "icons": 36000,
+        "load_ms": 1464.2353749275208,
+        "load_ms_all": [
+          1464.2,
+          1055.1,
+          1949.1
+        ],
+        "to_js_ms": 211.95816588401794,
+        "encode_ms": 345.08720803260803,
+        "edit_update_bytes": 26,
+        "concurrent_field_lost": false,
+        "converged": true,
+        "heap_mb": 736.717352,
+        "rss_mb": 894.140416,
+        "items": 36000
+      },
+      "yrs": {
+        "edit_update_bytes": 33,
+        "encode_ms": 47.929874999999996,
+        "icons": 36000,
+        "load_ms": 386.24775,
+        "load_ms_all": [
+          557.4,
+          386.2,
+          374
+        ],
+        "to_json_ms": 232.673459,
+        "items": 36000,
+        "peak_rss_delta_mb": 625.033216
+      }
+    },
+    {
+      "fixture": "max",
+      "shape": "value",
+      "icons": 36000,
+      "mb": 41.422016,
+      "gzip_mb": 6.421467,
+      "sidecar_mb": 0,
+      "yjs": {
+        "icons": 36000,
+        "load_ms": 484.5743329524994,
+        "load_ms_all": [
+          494.4,
+          454.7,
+          484.6
+        ],
+        "to_js_ms": 6.766666889190674,
+        "encode_ms": 401.2720830440521,
+        "edit_update_bytes": 1124,
+        "concurrent_field_lost": true,
+        "converged": true,
+        "heap_mb": 165.67712,
+        "rss_mb": 198.230016,
+        "items": 36000
       },
       "yrs": {
         "edit_update_bytes": 1152,
-        "encode_ms": 35.111792,
-        "icons": 14048,
-        "load_ms": 70.859916,
-        "load_ms_all": [
-          70.5,
-          74.7,
-          70.9
-        ],
-        "to_json_ms": 2.658208,
-        "items": 14048,
-        "peak_rss_delta_mb": 152.53504
-      }
-    },
-    {
-      "fixture": "over16",
-      "shape": "value-meta",
-      "icons": 14048,
-      "mb": 12.118414,
-      "gzip_mb": 1.676101,
-      "sidecar_mb": 4.687159,
-      "yjs": {
-        "icons": 14048,
-        "load_ms": 166.54158401489258,
-        "load_ms_all": [
-          157.4,
-          170.1,
-          166.5
-        ],
-        "to_js_ms": 3.08241605758667,
-        "encode_ms": 79.43687510490417,
-        "edit_update_bytes": 838,
-        "concurrent_field_lost": true,
-        "converged": true,
-        "heap_mb": 50.083904,
-        "rss_mb": 78.020608,
-        "items": 14048
-      },
-      "yrs": {
-        "edit_update_bytes": 855,
-        "encode_ms": 22.069792,
-        "icons": 14048,
-        "load_ms": 47.577124999999995,
-        "load_ms_all": [
-          47.6,
-          44.9,
-          49.5
-        ],
-        "to_json_ms": 2.358083,
-        "items": 14048,
-        "peak_rss_delta_mb": 109.314048
-      }
-    },
-    {
-      "fixture": "over16",
-      "shape": "hybrid",
-      "icons": 14048,
-      "mb": 13.156995,
-      "gzip_mb": 2.069737,
-      "sidecar_mb": 4.687159,
-      "yjs": {
-        "icons": 14048,
-        "load_ms": 232.23662495613098,
-        "load_ms_all": [
-          231,
-          276.6,
-          232.2
-        ],
-        "to_js_ms": 11.194332838058472,
-        "encode_ms": 93.07166600227356,
-        "edit_update_bytes": 22,
-        "concurrent_field_lost": false,
-        "converged": true,
-        "heap_mb": 113.55704,
-        "rss_mb": 162.791424,
-        "items": 14048
-      },
-      "yrs": {
-        "edit_update_bytes": 29,
-        "encode_ms": 19.609208,
-        "icons": 14048,
-        "load_ms": 72.353083,
-        "load_ms_all": [
-          76.4,
-          71.7,
-          72.4
-        ],
-        "to_json_ms": 25.773875,
-        "items": 14048,
-        "peak_rss_delta_mb": 164.233216
-      }
-    },
-    {
-      "fixture": "max",
-      "shape": "map",
-      "icons": 36000,
-      "mb": 51.665819,
-      "gzip_mb": 10.838995,
-      "sidecar_mb": 0,
-      "yjs": {
+        "encode_ms": 59.978917,
         "icons": 36000,
-        "load_ms": 1788.29554104805,
+        "load_ms": 150.392459,
         "load_ms_all": [
-          1576.8,
-          1788.3,
-          2302.3
+          181.3,
+          150.4,
+          149.4
         ],
-        "to_js_ms": 948.3467919826508,
-        "encode_ms": 1388.3302919864655,
-        "edit_update_bytes": 22,
-        "concurrent_field_lost": false,
-        "converged": true,
-        "heap_mb": 773.260504,
-        "rss_mb": 971.456512,
-        "items": 36000
-      },
-      "yrs": {
-        "edit_update_bytes": 27,
-        "encode_ms": 285.18904200000003,
-        "icons": 36000,
-        "load_ms": 545.995459,
-        "load_ms_all": [
-          514.7,
-          546,
-          732.4
-        ],
-        "to_json_ms": 702.696584,
+        "to_json_ms": 5.815041,
         "items": 36000,
-        "peak_rss_delta_mb": 731.348992
-      }
-    },
-    {
-      "fixture": "max",
-      "shape": "map-meta",
-      "icons": 36000,
-      "mb": 41.366085,
-      "gzip_mb": 8.65277,
-      "sidecar_mb": 12.045095,
-      "yjs": {
-        "icons": 36000,
-        "load_ms": 1636.0197920799255,
-        "load_ms_all": [
-          1398.7,
-          1636,
-          3161
-        ],
-        "to_js_ms": 249.56112504005432,
-        "encode_ms": 448.45645785331726,
-        "edit_update_bytes": 22,
-        "concurrent_field_lost": false,
-        "converged": true,
-        "heap_mb": 736.730192,
-        "rss_mb": 892.19072,
-        "items": 36000
-      },
-      "yrs": {
-        "edit_update_bytes": 29,
-        "encode_ms": 58.451707999999996,
-        "icons": 36000,
-        "load_ms": 469.455833,
-        "load_ms_all": [
-          469.5,
-          438.2,
-          492.8
-        ],
-        "to_json_ms": 302.736708,
-        "items": 36000,
-        "peak_rss_delta_mb": 676.315136
-      }
-    },
-    {
-      "fixture": "max",
-      "shape": "value",
-      "icons": 36000,
-      "mb": 41.422014,
-      "gzip_mb": 6.421465,
-      "sidecar_mb": 0,
-      "yjs": {
-        "icons": 36000,
-        "load_ms": 455.99604201316833,
-        "load_ms_all": [
-          549.4,
-          456,
-          443.6
-        ],
-        "to_js_ms": 5.618583917617798,
-        "encode_ms": 247.8246672153473,
-        "edit_update_bytes": 1120,
-        "concurrent_field_lost": true,
-        "converged": true,
-        "heap_mb": 165.686664,
-        "rss_mb": 198.066176,
-        "items": 36000
-      },
-      "yrs": {
-        "edit_update_bytes": 1143,
-        "encode_ms": 76.240833,
-        "icons": 36000,
-        "load_ms": 184.706709,
-        "load_ms_all": [
-          183.9,
-          201.7,
-          184.7
-        ],
-        "to_json_ms": 6.558292000000001,
-        "items": 36000,
-        "peak_rss_delta_mb": 389.5296
+        "peak_rss_delta_mb": 390.51264
       }
     },
     {
       "fixture": "max",
       "shape": "value-meta",
       "icons": 36000,
-      "mb": 31.12228,
-      "gzip_mb": 4.29421,
+      "mb": 31.122282,
+      "gzip_mb": 4.294217,
       "sidecar_mb": 12.045095,
       "yjs": {
         "icons": 36000,
-        "load_ms": 390.08974981307983,
+        "load_ms": 352.94687509536743,
         "load_ms_all": [
-          377.6,
-          397.2,
-          390.1
+          352.9,
+          392.2,
+          344.9
         ],
-        "to_js_ms": 5.277416944503784,
-        "encode_ms": 186.198499917984,
-        "edit_update_bytes": 838,
+        "to_js_ms": 5.77229118347168,
+        "encode_ms": 176.99783301353455,
+        "edit_update_bytes": 842,
         "concurrent_field_lost": true,
         "converged": true,
-        "heap_mb": 129.162088,
-        "rss_mb": 160.31744,
+        "heap_mb": 129.152016,
+        "rss_mb": 144.9984,
         "items": 36000
       },
       "yrs": {
-        "edit_update_bytes": 856,
-        "encode_ms": 44.369667,
+        "edit_update_bytes": 872,
+        "encode_ms": 48.931250000000006,
         "icons": 36000,
-        "load_ms": 126.11133399999999,
+        "load_ms": 148.722375,
         "load_ms_all": [
-          278.7,
-          126.1,
-          122.4
+          164.2,
+          118.3,
+          148.7
         ],
-        "to_json_ms": 7.117584,
+        "to_json_ms": 7.170542,
         "items": 36000,
-        "peak_rss_delta_mb": 280.772608
+        "peak_rss_delta_mb": 280.73984
       }
     },
     {
       "fixture": "max",
       "shape": "hybrid",
       "icons": 36000,
-      "mb": 33.80726,
-      "gzip_mb": 5.30429,
+      "mb": 34.527262,
+      "gzip_mb": 5.313702,
       "sidecar_mb": 12.045095,
       "yjs": {
         "icons": 36000,
-        "load_ms": 599.2545838356018,
+        "load_ms": 544.7982919216156,
         "load_ms_all": [
-          596.7,
-          656.1,
-          599.3
+          544.8,
+          649,
+          514.2
         ],
-        "to_js_ms": 36.19720792770386,
-        "encode_ms": 303.6364998817444,
-        "edit_update_bytes": 22,
+        "to_js_ms": 27.56754207611084,
+        "encode_ms": 198.85120797157288,
+        "edit_update_bytes": 26,
         "concurrent_field_lost": false,
         "converged": true,
-        "heap_mb": 292.266392,
-        "rss_mb": 370.212864,
+        "heap_mb": 292.256536,
+        "rss_mb": 369.754112,
         "items": 36000
       },
       "yrs": {
-        "edit_update_bytes": 29,
-        "encode_ms": 64.885333,
+        "edit_update_bytes": 33,
+        "encode_ms": 55.104917,
         "icons": 36000,
-        "load_ms": 201.79270799999998,
+        "load_ms": 179.557209,
         "load_ms_all": [
-          234.9,
-          201.8,
-          186.9
+          181.6,
+          167,
+          179.6
         ],
-        "to_json_ms": 72.36025000000001,
+        "to_json_ms": 71.139709,
         "items": 36000,
-        "peak_rss_delta_mb": 419.119104
+        "peak_rss_delta_mb": 418.578432
       }
     }
   ]

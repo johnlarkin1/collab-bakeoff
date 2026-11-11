@@ -7,6 +7,9 @@
     "shapes": "node harness/run-shapes.mjs --fixtures fixtures --out results"
   },
   "dependencies": {
+    "lib0": "0.2.114",
+    "ws": "8.18.0",
+    "y-protocols": "1.0.6",
     "yjs": "13.6.27"
   }
 }
