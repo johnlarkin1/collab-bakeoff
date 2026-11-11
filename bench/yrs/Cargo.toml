@@ -1,0 +1,12 @@
+[package]
+name = "shape-yrs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+yrs = "0.28"
+libc = "0.2"
+serde_json = "1"
+
+[profile.release]
+debug = false

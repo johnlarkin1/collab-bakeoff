@@ -1,0 +1,12 @@
+{
+  "name": "collab-bakeoff",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "corpus": "node corpus_gen/generate.mjs --out fixtures",
+    "shapes": "node harness/run-shapes.mjs --fixtures fixtures --out results"
+  },
+  "dependencies": {
+    "yjs": "13.6.27"
+  }
+}
